@@ -60,7 +60,7 @@ The following **optional** features are implemented:
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://drive.google.com/file/d/1Nhiqk3m06zW3l8Oje1pUJ1UCpPTrNon2/view?usp=sharing)
 
 ## License
 
