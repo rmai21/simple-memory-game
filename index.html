@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Memory Teaser Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      <center>Memory Teaser Game</center>
+    </h1>
+
+    <p>
+      <center>
+        Welcome players! In this game, you are provided four different colored
+        tiles where you will be given a pattern to follow and memorize. Each
+        tile has a different sound to it as well. You will follow along and
+        replay the pattern otherwise, it's game over for you. Have fun!
+      </center>
+    </p>
+
+    <center>
+      <button id="startBtn" onclick="startGame()">
+        <center>
+          <b>START</b>
+        </center>
+      </button>
+    </center>
+
+    <center>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        <center><b>STOP</b></center>
+      </button>
+    </center>
+
+    <center>
+      <div id="gameButtonArea">
+        <button
+          id="button1"
+          onclick="guess(1)"
+          onmousedown="startTone(1)"
+          onmouseup="stopTone()"
+        ></button>
+        <button
+          id="button2"
+          onclick="guess(2)"
+          onmousedown="startTone(2)"
+          onmouseup="stopTone()"
+        ></button>
+        <button
+          id="button3"
+          onclick="guess(3)"
+          onmousedown="startTone(3)"
+          onmouseup="stopTone()"
+        ></button>
+        <button
+          id="button4"
+          onclick="guess(4)"
+          onmousedown="startTone(4)"
+          onmouseup="stopTone()"
+        ></button>
+      </div>
+    </center>
+  </body>
+</html>
